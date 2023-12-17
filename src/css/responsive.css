@@ -58,7 +58,8 @@
     }
 
     .botoes {
-        top: 10%;
+        top: 0;
+        margin-top: 50px;
         position: fixed;
         display: flex;
         flex-direction: row;
