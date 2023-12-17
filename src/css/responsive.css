@@ -42,15 +42,15 @@
     }
 
     .conteudo {
-        top: -10%;
+        top: -35%;
     }
 
     .conteudo .logo {
         background-image: url("../images/yu-yu-hakusho-logo.png");
         background-size: cover;
-        height: 125px;
-        width: 125px;
-        margin-bottom: 35px;
+        height: 100px;
+        width: 100px;
+        margin-bottom: 130px;
     }
 
     .conteudo .nome-personagem {
@@ -58,9 +58,7 @@
     }
 
     .botoes {
-        /* padding: 20px; */
-        top: 50%;
-        /* margin-bottom: 150px; */
+        top: 25%;
         position: fixed;
         display: flex;
         flex-direction: row;
@@ -72,9 +70,16 @@
         background: rgba(0, 0, 0, 0.3);
     }
 
+    .botoes .botao {
+        border: none;
+        background: none;
+        cursor: pointer;
+        border-radius: 100%;
+    }
+
     .botoes .botao img {
         border-radius: 100%;
-        width: 80px;
-        height: 80px;
+        width: 100%;
+        height: 100%;
     }
 }
