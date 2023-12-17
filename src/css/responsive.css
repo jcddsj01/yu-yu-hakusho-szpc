@@ -16,6 +16,11 @@
         padding: 30px;
     }
 
+    .conteudo .logo {
+        height: 150px;
+        width: 150px;
+    }
+
     .conteudo .nome-descricao {
         font-size: 36px;
     }
@@ -29,10 +34,16 @@
         align-items: flex-end;
         width: 100%;
         padding: 30px;
+        gap: 25px;
+    }
+    
+    .botoes .botao.selecionado {
+        box-shadow: 0px 0px 10px 1px #fff;
     }
 
     .botoes .botao img {
         max-width: 60px;
+        box-shadow: 0px 0px 5px 1px #fff;
     }
 }
 
@@ -46,8 +57,6 @@
     }
 
     .conteudo .logo {
-        background-image: url("../images/yu-yu-hakusho-logo.png");
-        background-size: cover;
         height: 100px;
         width: 100px;
         margin-bottom: 140px;
@@ -59,31 +68,17 @@
 
     .botoes {
         top: 15%;
-        position: fixed;
-        display: flex;
         flex-direction: row;
         height: 100%;
         width: 100%;
-        justify-content: center;
-        align-items: center;
         gap: 25px;
-        background: rgba(0, 0, 0, 0.3);
-    }
-
-    .botoes .botao {
-        border: none;
-        background: none;
-        cursor: pointer;
-        border-radius: 100%;
-    }
-
-    .botoes .botao img {
-        border-radius: 100%;
-        box-shadow: 0px 0px 5px 1px #fff;
     }
 
     .botoes .botao.selecionado {
-        transform: scale(1.2);
         box-shadow: 0px 0px 10px 1px #fff;
+    }
+
+    .botoes .botao img {
+        box-shadow: 0px 0px 5px 1px #fff;
     }
 }
