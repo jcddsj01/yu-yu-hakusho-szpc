@@ -50,7 +50,7 @@
         background-size: cover;
         height: 100px;
         width: 100px;
-        margin-bottom: 130px;
+        margin-bottom: 140px;
     }
 
     .conteudo .nome-personagem {
@@ -58,7 +58,7 @@
     }
 
     .botoes {
-        top: 5%;
+        top: 10%;
         position: fixed;
         display: flex;
         flex-direction: row;
