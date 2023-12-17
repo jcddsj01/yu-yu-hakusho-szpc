@@ -3,7 +3,7 @@
 </h1>
 
 <div align="center">
-  <img src="src/imagens/yu-yu-hakusho-szpc.png" width="100%" />
+  <img src="./src/imagens/yu-yu-hakusho-szpc.png" width="100%" />
 </div>
 
 ## Projeto - Yu Yu Hakusho: Semana do Zero Ao Programador Contratado
