@@ -67,7 +67,7 @@
     }
 
     .botoes {
-        top: 15%;
+        top: -250px;
         flex-direction: row;
         height: 100%;
         width: 100%;
